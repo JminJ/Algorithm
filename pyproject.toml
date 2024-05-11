@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algorithm"
+version = "0.1.0"
+description = ""
+authors = ["JminJ <jminju254@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
